@@ -1,0 +1,188 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.heading{
+    width: 100%;
+    height: 100vh;
+    background-color: #F2F0F1;
+    background-image: url(images/pexels-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading h1{
+    color: #352C2D;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.heading .btn-warning:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    transform: translateY(-1rem);
+}
+
+.jumbotron{
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+.article-head h2{
+    font-size: 3rem;
+    padding-bottom: 50px;
+}
+
+
+.mybox{
+    display: flex;
+    padding: 30px;
+}
+
+.mybox h3{
+    
+    color: rgba(240, 128, 128, 0.938);
+}
+
+.mybox .icons .fas{
+    font-size: 2rem;
+    margin-right: 10px;
+    color: lightcoral;
+}
+
+.mybox .icons .fas:hover ,
+.mybox h3:hover{
+    transition: 0.5s;
+    transform: translateY(-1rem);
+    color: coral;
+}
+
+
+
+/* menu styling */
+#menu{
+    display: flex;
+    background-color: #352C2D;
+}
+
+.fixed-img{
+    width: 100%;
+    min-height: 70vh;
+    background-image: url(images/cereal-bowl.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    flex: 2;
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+}
+
+.menu-article{
+    background-color:#352C2D;
+    min-height: 70vh;
+    align-items: center;
+    padding: 40px 0px;
+    flex: 1;
+}
+
+.menu-header{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu-header h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.menu-header p{
+    margin-bottom: 30px;
+    line-height: 2;
+    color: #fff;
+}
+
+.menu-header .btn-success{
+    border-radius: 200px;
+}
+.menu-header .btn-success:hover{
+    cursor: pointer;
+    transform: translateY(-0.5rem);
+    transition: 0.5s;
+}
+
+/*  Medium screen (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    .fixed-img{
+        clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+    }
+}
+
+/* small screen  (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #menu{
+        display: block;
+        background-color: #352C2D;
+    }
+    .menu-article{
+        text-align: center;
+        justify-content: center;
+    }
+    .fixed-img{
+        clip-path: none;
+    }
+}
+
+/* number section css */
+
+.numbers{
+    color: #fff;
+    min-height: 50vh;
+    padding-top: 50px;
+    background-image: url(images/breakfast.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.mybox2{
+    justify-content: center;
+    align-items: center;
+}
+
+.mybox2 .number-icon{
+    font-size: 2.5rem;
+}
+
+.mybox2 .number-text h3{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.mybox2:hover{
+    color: orangered;
+}
+
+/* contact us */
+.social-icons{
+    height: 150px;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.social-icons a{
+    font-size: 40px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.social-icons a .fab:hover{
+    transform: translateY(-0.5rem);
+    transition: all 0.5s;
+}
+
