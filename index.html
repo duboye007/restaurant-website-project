@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Website</title>
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- google font Balsamiq -->
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
     <!-- font awesome  -->
     <script src="https://kit.fontawesome.com/206e43eeb9.js" crossorigin="anonymous"></script>
-        <!-- my css -->
-        <link rel="stylesheet" href="style.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- start Navigation -->
     <nav>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Menu</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact us</a>
-                </li>
-              </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                </ul>
             </div>
-          </nav>
+        </nav>
     </nav>
     <!-- End Navigation -->
-    
+
     <!-- Start of Landing page -->
 
     <header>
@@ -132,7 +136,7 @@
                 </div>
 
             </div>
-          </div>
+        </div>
     </section>
     <!-- End of About Section -->
 
@@ -143,7 +147,8 @@
         <div class="menu-article">
             <div class="menu-header">
                 <h2>Menu</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse nemo voluptatem placeat id atque quibusdam explicabo autem. Ullam, ea.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse nemo voluptatem placeat id atque
+                    quibusdam explicabo autem. Ullam, ea.</p>
                 <button type="button" class="btn btn-success btn-sm">Small button</button>
             </div>
         </div>
@@ -199,7 +204,112 @@
         </div>
 
     </section>
-    <!-- End Menu Section -->
+
+    <!-- Start card section -->
+
+    <section id="food">
+        <div>
+            <h2 class="food-title">Food fusion</h2>
+        </div>
+
+        <!-- food card -->
+        <div class="food-card">
+            <div class="card bg-dark text-white">
+                <img src="images/breakfast-bread-and-egg.jpeg" class="card-img" alt="bread toast with scrambled eggs">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Breakfast</h5>
+                    <div class="card-footer">
+                        <div class="card-icon">
+                            <i class="fas fa-dollar-sign">25</i>
+                        </div>
+                        <div class="card-btn">
+                            <button type="button" class="btn btn-primary btn-lg">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-dark text-white">
+                <img src="images/lunch-pizza.jpeg" class="card-img" alt="half captured pizza">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Lunch</h5>
+                    <div class="card-footer">
+                        <div class="card-icon">
+                            <i class="fas fa-dollar-sign">35</i>
+                        </div>
+                        <card-btn>
+                            <button type="button" class="btn btn-primary btn-lg">Order Now</button>
+                        </card-btn>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-dark text-white">
+                <img src="images/dinner-barbeque.jpeg" class="card-img" alt="chicken barbeque">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Dinner</h5>
+                    <div class="card-footer">
+                        <div class="card-icon">
+                            <i class="fas fa-dollar-sign">45</i>
+                        </div>
+                        <div class="card-btn">
+                            <button type="button" class="btn btn-primary btn-lg">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of food card -->
+
+    </section>
+    <!-- end of card section -->
+
+    <!-- End of Menu Section -->
+
+    <!-- Gallery -->
+
+    <section class="gallery">
+        <div class="gallery-text text-center">
+            <h2>Cuisine</h2>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide text-center" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/buritos.jpeg" class="d-block w-100" alt="buritos on a table">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bergiri.jpeg" class="d-block w-100" alt="bergiri">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/burger-fries.jpeg" class="d-block w-100" alt="burger-fries">
+                </div>
+            </div>
+                <div class="carousel-item">
+                    <img src="images/cereal.jpeg" class="d-block w-100" alt="cereal">
+                </div>
+            </div>
+                <div class="carousel-item">
+                    <img src="images/meatballs.jpeg" class="d-block w-100" alt="burger-fries">
+                </div>
+            </div>
+                <div class="carousel-item">
+                    <img src="images/salad.jpg" class="d-block w-100" alt="burger-fries">
+                </div>
+            </div>
+                <div class="carousel-item">
+                    <img src="images/wings.jpeg" class="d-block w-100" alt="burger-fries">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
 
     <!-- Social Section -->
 
@@ -213,16 +323,25 @@
     </div>
     <!-- End of Social section -->
 
-    
 
 
 
 
 
-     <!-- Optional JavaScript -->
+
+
+
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
